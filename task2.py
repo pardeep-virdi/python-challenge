@@ -1,11 +1,13 @@
-#greeting.py
 
-def greeting(first_name, last_name):
-    print("Hello,", first_name, last_name + "!","Welcome to the Python program." )
+
+def sum_to_n(number):
+    total = 0 
+    for num in range(1, number + 1):
+          total += num
+    return total
 
 if __name__ == "__main__":
-
-    first_name = input("Enter the firstname: ")
-    last_name = input("Enter the lastname: ")
-    print ("\n")
-    greeting(first_name, last_name)
+    number = 50
+    result = sum_to_n(number)
+    print("The sum of numbers from 1 to 50 is:", result)
+    
