@@ -1,21 +1,13 @@
-def add(a,b):
-    print ("Addition:", a + b)
 
-def sub(a,b):
-    print ("Subtraction:", a - b)
 
-def mux(a,b):
-    print ("Multiplication:", a * b)
-
-def div(a,b):
-    print ("Division:", a / b)
+def check_even_odd(number):
+    if number % 2 == 0:
+        return f"{number} is an even number"
+    else:
+        return f"{number} is an odd number"
 
 if __name__ == "__main__":
-    a = int(input("Enter the first number: "))
-    b = int(input("Enter the second number: "))
-    print ("\n")
-
-    add(a,b)
-    sub(a, b)
-    mux(a, b)
-    div(a, b)
+    number = int(input("Enter the number: "))
+    result = check_even_odd(number)
+    print(result)
+    
