@@ -1,33 +1,17 @@
 # python-challenge
 
-#task1
+#task1 even odd
 
-Pardeep_Singh_Virdi@ python % python func.py
-
-Enter the first number: 5
-
-Enter the second number: 10
-
-
-Addition: 15
-
-Subtraction: -5
-
-Multiplication: 50
-
-Division: 0.5
+Pardeep_Singh_Virdi@ python % python even-odd.py
+Enter the number: 67
+67 is odd number
 
 
 
 #task2
 
-Pardeep_Singh_Virdi@python % python greeting.py
-
-Enter the firstname: pardeep
-
-Enter the lastname: virdi
-
-Hello, pardeep virdi! Welcome to the Python program.
+Pardeep_Singh_Virdi@ python % python3 sum1-n.py
+The sum of numbers from 1 to 50 is: 1275
 
 
 
