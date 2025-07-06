@@ -1,19 +1,12 @@
-
 import math
 
-
-
-
-if __name__ == "__main__":
-    number = float(input("Enter the number: "))
-
+number = float(input("Enter the number: "))
  # Calculate square root
-    sqrt_result = math.sqrt(number)
-    log_base = math.log(number)
+sqrt_result = math.sqrt(number)
+log_base = math.log(number)
     # Calculate sine (input is in radians)
-    sine_result = math.sin(number)
+sine_result = math.sin(number)
    # Display the results
-    print(f"Square root: {sqrt_result}")
-    print(f"logarithm: {log_base}")
-    print(f"Sine: {sine_result}")
-    
+print(f"Square root: {sqrt_result}")
+print(f"logarithm: {log_base}")
+print(f"Sine: {sine_result}")
