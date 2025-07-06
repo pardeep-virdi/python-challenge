@@ -1,13 +1,19 @@
 
+import math
 
-def sum_to_n(number):
-    total = 0 
-    for num in range(1, number + 1):
-          total += num
-    return total
+
+
 
 if __name__ == "__main__":
-    number = 50
-    result = sum_to_n(number)
-    print("The sum of numbers from 1 to 50 is:", result)
+    number = float(input("Enter the number: "))
+
+ # Calculate square root
+    sqrt_result = math.sqrt(number)
+    log_base = math.log(number)
+    # Calculate sine (input is in radians)
+    sine_result = math.sin(number)
+   # Display the results
+    print(f"Square root: {sqrt_result}")
+    print(f"logarithm: {log_base}")
+    print(f"Sine: {sine_result}")
     
