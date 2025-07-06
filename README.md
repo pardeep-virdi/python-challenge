@@ -1,19 +1,24 @@
 # python-challenge
 
-#task1 even odd
+#task1
 
-Pardeep_Singh_Virdi@ python % python factorial.py
-Enter the number: 6
-Factorial of 6 is: 720
+Pardeep_Singh_Virdi@M python-hack % python file.py
+line1: Hello
+line2: line 1
+line3: line 2
+Pardeep_Singh_Virdi@M python-hack % rm sample.txt 
+Pardeep_Singh_Virdi@M python-hack % python3 file.py
+Error: The file 'sample.txt' does not exist.
 
 
 #task2
 
-Pardeep_Singh_Virdi@ python % python task2.py
-Enter the number: 9
-Square root: 3.0
-logarithm: 2.1972245773362196
-Sine: 0.4121184852417566
+Pardeep_Singh_Virdi@M python-hack % python append.py 
+Enter text to write to the file: kendvndv
+Enter additional text to append to the file: dnvknvd
 
+Final content of output.txt:
+kendvndv
+dnvknvd
 
 
