@@ -1,24 +1,22 @@
 # python-challenge
 
 #task1
-
-Pardeep_Singh_Virdi@M python-hack % python file.py
-line1: Hello
-line2: line 1
-line3: line 2
-Pardeep_Singh_Virdi@M python-hack % rm sample.txt 
-Pardeep_Singh_Virdi@M python-hack % python3 file.py
-Error: The file 'sample.txt' does not exist.
+Pardeep_Singh_Virdi@M-FW6YX2F9GK ~ % python3 task1.py 
+Enter the student's name: alice
+Student 'alice' not found in the records.
+Pardeep_Singh_Virdi@M-FW6YX2F9GK ~ % python3 task1.py
+Enter the student's name: Alice
+Alice's marks: 85
+Pardeep_Singh_Virdi@M-FW6YX2F9GK ~ % python3 task1.py
+Enter the student's name: Bob
+Bob's marks: 92
 
 
 #task2
 
-Pardeep_Singh_Virdi@M python-hack % python append.py 
-Enter text to write to the file: kendvndv
-Enter additional text to append to the file: dnvknvd
-
-Final content of output.txt:
-kendvndv
-dnvknvd
+Pardeep_Singh_Virdi@M-FW6YX2F9GK ~ % python3 task2.py
+Extracted list: [1, 2, 3, 4, 5]
+Reversed list: [5, 4, 3, 2, 1]
+Pardeep_Singh_Virdi@M-FW6YX2F9GK ~ % 
 
 
