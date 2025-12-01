@@ -1,10 +1,14 @@
-# Task 1: Read a File and Handle Errors
+student_marks = {
+    "Alice": 85,
+    "Bob": 92,
+    "Charlie": 78,
+    "Diana": 88,
+    "Eve": 95
+}
 
-filename = "sample.txt"
+student_name = input("Enter the student's name: ")
 
-try:
-    with open(filename, 'r') as file:
-        for n, line in enumerate(file, start=1):
-            print(f"line{n}: {line}", end='')  # end='' avoids adding extra newlines
-except FileNotFoundError:
-    print(f"Error: The file '{filename}' does not exist.")
+if student_name in student_marks:
+    print(f"{student_name}'s marks: {student_marks[student_name]}")
+else:
+    print(f"Student '{student_name}' not found in the records.")
